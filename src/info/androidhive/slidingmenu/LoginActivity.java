@@ -61,7 +61,13 @@ public class LoginActivity extends Activity {
 	// Session Manager Class
 	SessionManager session;
 	boolean inCorrect = true;
-		boolean isEmpty = true;
+    boolean isEmpty = true;
+
+    @Override
+    public void onBackPressed() {
+        Log.d("Mylog", "Existing app");
+        this.moveTaskToBack(true);
+    }
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
