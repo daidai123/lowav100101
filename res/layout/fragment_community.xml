@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/txtLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="16dp"
+        android:text="My Profile"/>
+    
+    <LinearLayout
+         android:id="@+id/newCardLayout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:background="#e1e1e1"
+         android:orientation="vertical" >
+
+          <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical" >
+
+	        <!--  Name Label -->
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Full Name" />
+			<!--  Name TextField -->
+	        <EditText
+	            android:id="@+id/userFullName"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        
+			<!--  Email Label -->
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Gender" />
+			<!--  Email TextField -->
+	        <EditText
+	            android:id="@+id/userGender"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <!--  View Title Label -->
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Email" />
+			<!--  Name TextField -->
+	        <EditText
+	            android:id="@+id/userEmail"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        
+			<!--  Email Label -->
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Home Phone" />
+			<!--  Email TextField -->
+	        <EditText
+	            android:id="@+id/userHomePhone"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+        
+       
+		        <!--  Name Label -->
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Home Address" />
+				<!--  Name TextField -->
+		        <EditText
+		            android:id="@+id/userHomeAddress"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content" />
+		        
+				<!--  Email Label -->
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Office Phone" />
+				<!--  Email TextField -->
+		        <EditText
+		            android:id="@+id/userOfficePhone"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content" />
+		        <!--  Email Label -->
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Office Address" />
+				<!--  Email TextField -->
+		        <EditText
+		            android:id="@+id/userOfficeAddress"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content" />
+             
+             </LinearLayout>
+            
+           
+         </LinearLayout>
+
+</RelativeLayout>
